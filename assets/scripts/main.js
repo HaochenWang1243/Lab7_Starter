@@ -51,8 +51,7 @@ async function initializeServiceWorker() {
   
   async function registerWorker(){
     try {
-      const registration = await navigator.serviceWorker.register("/../sw.js", {
-      });
+      const registration = await navigator.serviceWorker.register("/sw.js");
       if (registration.installing) {
         console.log("Service worker installing");
       } else if (registration.waiting) {
