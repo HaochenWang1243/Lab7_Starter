@@ -10,17 +10,6 @@ self.addEventListener('install', function (event) {
       // B6. TODO - Add all of the URLs from RECIPE_URLs here so that they are
       //            added to the cache when the ServiceWorker is installed
       return cache.addAll([
-        // '/index.html',
-        // '/assets/scripts/main.js',
-        // '/assets/scripts/RecipeCard.js',
-        // '/assets/images/icons/0-star.svg',
-        // '/assets/images/icons/1-star.svg',
-        // '/assets/images/icons/2-star.svg',
-        // '/assets/images/icons/3-star.svg',
-        // '/assets/images/icons/4-star.svg',
-        // '/assets/images/icons/5-star.svg',
-        // '/assets/images/icons/arrow-down.png',
-        // '/assets/styles/main.css'
         'https://introweb.tech/assets/json/1_50-thanksgiving-side-dishes.json',
         'https://introweb.tech/assets/json/2_roasting-turkey-breast-with-stuffing.json',
         'https://introweb.tech/assets/json/3_moms-cornbread-stuffing.json',
